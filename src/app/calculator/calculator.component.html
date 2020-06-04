@@ -1,0 +1,31 @@
+
+<div class="wholeApp">
+    <div id="buttonNumber">
+        <p id="numberText">Number Text is here</p>
+        <button (click)="numberOnClick(1)">9</button>
+        <button (click)="numberOnClick(2)">8</button>
+        <button (click)="numberOnClick(3)">7</button>
+        <button (click)="operationOnClick(4)">/</button>
+        <button (click)="numberOnClick(5)">6</button>
+        <button (click)="numberOnClick(6)">5</button>
+        <button (click)="numberOnClick(7)">4</button>
+        <button (click)="operationOnClick(8)">*</button>
+        <button (click)="numberOnClick(9)">3</button>
+        <button (click)="numberOnClick(10)">2</button>
+        <button (click)="numberOnClick(11)">1</button>
+        <button (click)="operationOnClick(12)">-</button>
+        <button  (click)="clear()">C</button>
+        <button (click)="numberOnClick(14)">0</button>
+        <button (click)="equalsButton()">=</button>
+        <button (click)="operationOnClick(16)">+</button>
+
+
+    </div>
+
+    <div id="listOper">
+        <li *ngFor="let oper of fullOperations" id = "AllOper" (click)="fullClear()"> {{oper}}
+
+        </li>
+    </div>
+
+</div>
