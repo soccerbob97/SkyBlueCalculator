@@ -1,6 +1,6 @@
 # MyCalculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7. I created this project to practice my angular skills, and the website allows people to use a calculator and store previous operations. You can open the project at https://soccerbob97.github.io/SkyBlueCalculator/SkyBlueCalculator/. 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7. I created this project to practice my angular skills, and the website allows people to use a calculator and store previous operations. You can open the project at https://soccerbob97.github.io/SkyBlueCalculator/. 
 
 ## Development server
 
